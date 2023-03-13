@@ -10,7 +10,6 @@ class Format(Enum):
 
 
 class AgcProfile(Enum):
-    VSLOW = ("VSlow", 0.03, 0.00007, 300) 
     SLOW = ("Slow", 0.01, 0.0001, 600)
     FAST = ("Fast", 0.1, 0.001, 200)
 

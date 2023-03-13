@@ -3,7 +3,7 @@
 from setuptools import setup, Extension
 
 
-version = "0.18.0-dev"
+version = "0.18.1"
 
 setup(
     name="pycsdr",
@@ -65,6 +65,10 @@ setup(
                 "src/timingrecovery.cpp",
                 "src/dbpskdecoder.cpp",
                 "src/varicodedecoder.cpp",
+                "src/noisefilter.cpp",
+                "src/cwdecoder.cpp",
+                "src/rttydecoder.cpp",
+                "src/sstvdecoder.cpp",
             ],
             language="c++",
             include_dirs=["src"],

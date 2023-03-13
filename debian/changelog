@@ -1,5 +1,49 @@
-pycsdr (0.18.0) UNRELEASED; urgency=low
+pycsdr (0.18.7) bullseye jammy; urgency=low
+
+  * Added debug time parameter to the SSTV decoder module.
+
+ -- Marat Fayzullin <luarvique@gmail.com>  Sat, 11 Mar 2023 16:12:00 +0000
+
+pycsdr (0.18.6) bullseye jammy; urgency=low
+
+  * Synchronizing with csdr 0.18.6.
+
+ -- Marat Fayzullin <luarvique@gmail.com>  Sat, 4 Mar 2023 16:12:00 +0000
+
+pycsdr (0.18.5) bullseye jammy; urgency=low
+
+  * Added SSTV decoder.
+
+ -- Marat Fayzullin <luarvique@gmail.com>  Sat, 18 Feb 2023 16:12:00 +0000
+
+pycsdr (0.18.4) bullseye jammy; urgency=low
+
+  * Added RTTY decoder.
+  * Improved CW decoder.
+  * Switched both decoders to complex input.
+
+ -- Marat Fayzullin <luarvique@gmail.com>  Sat, 4 Feb 2023 16:12:00 +0000
+
+pycsdr (0.18.3) bullseye jammy; urgency=low
+
+  * Added experimental CW decoder.
+
+ -- Marat Fayzullin <luarvique@gmail.com>  Sat, 28 Jan 2023 16:12:00 +0000
+
+pycsdr (0.18.2) bullseye jammy; urgency=low
+
+  * Added noise filtering based on spectral subtraction
+
+ -- Marat Fayzullin <luarvique@gmail.com>  Sat, 24 Dec 2022 16:12:00 +0000
+
+pycsdr (0.18.1) bullseye jammy; urgency=low
+
+  * fix shutdown of tcp sources for format other than complex float
+
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Tue, 20 Sep 2022 16:12:00 +0000
+
+pycsdr (0.18.0) bullseye jammy; urgency=low
 
   * First release
 
- -- Jakob Ketterl <jakob.ketterl@gmx.de>  Mon, 20 Sep 2021 17:00:00 +0000
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Tue, 14 Jun 2022 19:39:00 +0000

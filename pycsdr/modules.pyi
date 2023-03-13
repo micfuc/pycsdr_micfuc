@@ -193,6 +193,20 @@ class DcBlock(Module):
         ...
 
 
+class NoiseFilter(Module):
+    def __init__(self, threshold: int, fftSize: int, wndSize: int):
+        ...
+
+    def setThreshold(self, threshold: int) -> None:
+        ...
+
+    def setWndSize(self, wndSize: int) -> None:
+        ...
+
+    def setFftSize(self, fftSize: int) -> None:
+        ...
+
+
 class RealPart(Module):
     def __init__(self):
         ...
@@ -229,5 +243,18 @@ class DBPskDecoder(Module):
 
 
 class VaricodeDecoder(Module):
+    def __init__(self):
+        ...
+
+
+class CwDecoder(Module):
+    def __init__(self):
+        ...
+
+class RttyDecoder(Module):
+    def __init__(self):
+        ...
+
+class SstvDecoder(Module):
     def __init__(self):
         ...
