@@ -20,6 +20,7 @@ src/cwdecoder.cpp
 src/dbpskdecoder.cpp
 src/dcblock.cpp
 src/downmix.cpp
+src/faxdecoder.cpp
 src/fft.cpp
 src/fftadpcm.cpp
 src/fftswap.cpp
